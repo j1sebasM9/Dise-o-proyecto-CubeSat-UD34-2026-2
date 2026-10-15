@@ -1,1 +1,29 @@
-En este espacio se almacenaran todos los documentos respectivos a las practica del laboratorio de diseño de productos electrónicos. 
+# CubeSat UD34 - PCB 4: Carga Útil (Payload) + ADCS (Control de Actitud)
+**Proyecto CubeSat UD34 — Práctica N.º 4: Diseño Electrónico y Captura Esquemática**  
+**Universidad de Antioquia — Departamento de Ingeniería Electrónica y Telecomunicaciones**  
+
+## Información General del Proyecto
+* **Identificación de la Tarjeta:** PCB 4 — Carga Útil Multiespectral (PL) y Sistema de Determinación y Control de Actitud (ADCS Híbrido).
+* **Formato Electrónico:** Tarjeta apilable estándar CubeSat PC/104 (\\(90.17 \text{ mm} \times 95.89 \text{ mm}\\)).
+* **Herramienta de EDA:** Altium Designer (Versión 24.0 o superior).
+* **Licencia de Hardware:** CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S).
+
+### Integrantes del Equipo de Diseño
+Facultad de Ingenieria
+* **Jesús Sebastián Mendoza (jsebastian.mendoza@udea.edu.co)
+* **Andres Felipe Agudelo (andresf.agudeloz@udea.edu.co)
+
+## Funciones Principales de la PCB 4
+1. **Carga Útil Agrónoma (PL):** Captura fotónica multiespectral en bandas VIS/NIR (Rojo 660 nm, NIR 840 nm + RGB) mediante sensor CMOS AR0134CS con interfaz paralela DVP de 12 bits y alimentación conmutada por *Load Switch* (`Vsw_3.3V`).
+2. **Sensing de Actitud (ADCS):** Lectura triaxial del campo magnético terrestre (Magnetómetro MEMSIC MMC5983MA vía I2C) y velocidad angular/aceleración (IMU ST LSM6DSOX vía SPI).
+3. **Actuación Híbrida de Actitud (ADCS):** Excitación de 3 Magnetorquers en capas internas de la PCB (*PCB-Embedded*) mediante drivers TI DRV8837C (PWM/DIR) para *detumbling* y desaturación, y control de 3 Ruedas de Reacción mediante driver BLDC TI DRV8313 para apuntamiento fino (\\(\le 0.5^\circ\\)).
+
+## Estructura del Repositorio
+cubesat-ud34-pcb4-pl-adcs/
+├── README.md                          <-- Archivo de presentación e instrucciones
+├── altium/                            <-- Proyecto completo de Altium Designer (.PrjPcb, .SchDoc)
+├── libraries/                         <-- Librerías esquemáticas (.SchLib) y footprints (.PcbLib)
+├── datasheets/                        <-- Hojas de datos (PDFs) de todos los componentes COTS
+├── calculations/                      <-- Dimensionamiento IPC-2221A y presupuestos
+├── docs/                              <-- Normas espaciales (CDS Rev 14.1, ECSS) y notas de aplicación
+└── deliverables/                      <-- Informe técnico final PDF, lista BOM y reporte ERC
