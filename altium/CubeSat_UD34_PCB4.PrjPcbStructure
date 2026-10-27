@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=PCB4_Top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=PCB4_Top.SchDoc|Designator= |SchDesignator= |FileName=Block_Payload.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Block_Payload.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PCB4_Top.SchDoc|Designator= |SchDesignator= |FileName=Block_ADCS_Actuation.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Block_ADCS_Actuation.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PCB4_Top.SchDoc|Designator= |SchDesignator= |FileName=Block_ADCS_Sensing.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Block_ADCS_Sensing.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PCB4_Top.SchDoc|Designator= |SchDesignator= |FileName=Block_Bus_PC104.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Block_Bus_PC104.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
