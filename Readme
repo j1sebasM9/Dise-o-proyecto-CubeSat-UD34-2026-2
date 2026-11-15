@@ -21,11 +21,11 @@ Facultad de Ingenieria
 ## Estructura del Repositorio
 cubesat-ud34-pcb4-pl-adcs/
 ├── README.md                          <-- Archivo de presentación e instrucciones
-├── altium/                            <-- Proyecto completo de Altium Designer (.PrjPcb, .SchDoc)
-├── libraries/                         <-- Librerías esquemáticas (.SchLib) y footprints (.PcbLib)
-├── datasheets/                        <-- Hojas de datos (PDFs) de todos los componentes COTS
-├── calculations/                      <-- Dimensionamiento IPC-2221A y presupuestos
-├── docs/                              <-- Normas espaciales (CDS Rev 14.1, ECSS) y notas de aplicación
-└── deliverables/                      <-- Informe técnico final PDF, lista BOM y reporte ERC
-└── Practica_5_pcb/                      <-- Todos los archivos relacionados con la práctica 5
+├── altium/                            <-- Proyecto completo de Altium Designer (.PrjPcb, .SchDoc) (Practica número 4)
+├── libraries/                         <-- Librerías esquemáticas (.SchLib) y footprints (.PcbLib) (Practica número 4)
+├── datasheets/                        <-- Hojas de datos (PDFs) de todos los componentes COTS (Practica número 4)
+├── calculations/                      <-- Dimensionamiento IPC-2221A y presupuestos (Practica número 4)
+├── docs/                              <-- Normas espaciales (CDS Rev 14.1, ECSS) y notas de aplicación (Practica número 4)
+└── deliverables/                      <-- Informe técnico final PDF, lista BOM y reporte ERC (Practica número 4)
+└── Practica_5_pcb/                      <-- Todos los archivos relacionados con la práctica 5 (Practica número 5)
 
