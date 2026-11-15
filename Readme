@@ -27,3 +27,5 @@ cubesat-ud34-pcb4-pl-adcs/
 ├── calculations/                      <-- Dimensionamiento IPC-2221A y presupuestos
 ├── docs/                              <-- Normas espaciales (CDS Rev 14.1, ECSS) y notas de aplicación
 └── deliverables/                      <-- Informe técnico final PDF, lista BOM y reporte ERC
+└── Practica_5_pcb/                      <-- Todos los archivos relacionados con la práctica 5
+
