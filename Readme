@@ -18,7 +18,7 @@ Facultad de Ingenieria
 2. **Sensing de Actitud (ADCS):** Lectura triaxial del campo magnético terrestre (Magnetómetro MEMSIC MMC5983MA vía I2C) y velocidad angular/aceleración (IMU ST LSM6DSOX vía SPI).
 3. **Actuación Híbrida de Actitud (ADCS):** Excitación de 3 Magnetorquers en capas internas de la PCB (*PCB-Embedded*) mediante drivers TI DRV8837C (PWM/DIR) para *detumbling* y desaturación, y control de 3 Ruedas de Reacción mediante driver BLDC TI DRV8313 para apuntamiento fino (\\(\le 0.5^\circ\\)).
 
-## Estructura del Repositorio
+## Estructura del Repositorio practicas 4 y 5:
 cubesat-ud34-pcb4-pl-adcs/
 ├── README.md                          <-- Archivo de presentación e instrucciones
 ├── altium/                            <-- Proyecto completo de Altium Designer (.PrjPcb, .SchDoc) (Practica número 4)
